@@ -1,0 +1,130 @@
+30 Dec 2022 - 15:11:46.139 [restartedMain] INFO  c.student.StudentAddressApplication - Starting StudentAddressApplication using Java 17.0.4.1 on Abhishek with PID 14032 (E:\Wallpaper\student-address\target\classes started by Abhishek in E:\Wallpaper\student-address)
+30 Dec 2022 - 15:11:46.143 [restartedMain] INFO  c.student.StudentAddressApplication - No active profile set, falling back to 1 default profile: "default"
+30 Dec 2022 - 15:11:46.190 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+30 Dec 2022 - 15:11:46.190 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+30 Dec 2022 - 15:11:46.814 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 Dec 2022 - 15:11:46.859 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 3 JPA repository interfaces.
+30 Dec 2022 - 15:11:47.343 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+30 Dec 2022 - 15:11:47.351 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 Dec 2022 - 15:11:47.351 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+30 Dec 2022 - 15:11:47.422 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 Dec 2022 - 15:11:47.422 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1231 ms
+30 Dec 2022 - 15:11:47.553 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 Dec 2022 - 15:11:47.594 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+30 Dec 2022 - 15:11:47.711 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 Dec 2022 - 15:11:47.787 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 Dec 2022 - 15:11:47.914 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 Dec 2022 - 15:11:47.926 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30 Dec 2022 - 15:11:48.442 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 Dec 2022 - 15:11:48.448 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 Dec 2022 - 15:11:48.930 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 Dec 2022 - 15:11:49.023 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+30 Dec 2022 - 15:11:49.136 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+30 Dec 2022 - 15:11:49.259 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+30 Dec 2022 - 15:11:49.260 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+30 Dec 2022 - 15:11:49.274 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+30 Dec 2022 - 15:11:49.293 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+30 Dec 2022 - 15:11:49.417 [restartedMain] INFO  c.student.StudentAddressApplication - Started StudentAddressApplication in 3.582 seconds (JVM running for 4.195)
+30 Dec 2022 - 15:13:08.236 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+30 Dec 2022 - 15:13:08.251 [Thread-4] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+30 Dec 2022 - 15:13:08.257 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 Dec 2022 - 15:13:08.259 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 Dec 2022 - 15:13:08.265 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 Dec 2022 - 15:13:08.322 [restartedMain] INFO  c.student.StudentAddressApplication - Starting StudentAddressApplication using Java 17.0.4.1 on Abhishek with PID 14032 (E:\Wallpaper\student-address\target\classes started by Abhishek in E:\Wallpaper\student-address)
+30 Dec 2022 - 15:13:08.322 [restartedMain] INFO  c.student.StudentAddressApplication - No active profile set, falling back to 1 default profile: "default"
+30 Dec 2022 - 15:13:08.531 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 Dec 2022 - 15:13:08.541 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 3 JPA repository interfaces.
+30 Dec 2022 - 15:13:08.615 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+30 Dec 2022 - 15:13:08.615 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 Dec 2022 - 15:13:08.616 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+30 Dec 2022 - 15:13:08.634 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 Dec 2022 - 15:13:08.635 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 311 ms
+30 Dec 2022 - 15:13:08.667 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 Dec 2022 - 15:13:08.671 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+30 Dec 2022 - 15:13:08.674 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+30 Dec 2022 - 15:13:08.674 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30 Dec 2022 - 15:13:08.735 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 Dec 2022 - 15:13:08.735 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 Dec 2022 - 15:13:08.854 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 Dec 2022 - 15:13:08.876 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+30 Dec 2022 - 15:13:08.908 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+30 Dec 2022 - 15:13:08.945 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+30 Dec 2022 - 15:13:08.946 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+30 Dec 2022 - 15:13:08.946 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+30 Dec 2022 - 15:13:08.949 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+30 Dec 2022 - 15:13:08.982 [restartedMain] INFO  c.student.StudentAddressApplication - Started StudentAddressApplication in 0.682 seconds (JVM running for 83.759)
+30 Dec 2022 - 15:13:08.984 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+30 Dec 2022 - 15:13:29.779 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+30 Dec 2022 - 15:13:29.801 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+30 Dec 2022 - 15:13:29.808 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 Dec 2022 - 15:13:29.809 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+30 Dec 2022 - 15:13:29.812 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+30 Dec 2022 - 15:13:29.864 [restartedMain] INFO  c.student.StudentAddressApplication - Starting StudentAddressApplication using Java 17.0.4.1 on Abhishek with PID 14032 (E:\Wallpaper\student-address\target\classes started by Abhishek in E:\Wallpaper\student-address)
+30 Dec 2022 - 15:13:29.864 [restartedMain] INFO  c.student.StudentAddressApplication - No active profile set, falling back to 1 default profile: "default"
+30 Dec 2022 - 15:13:30.046 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 Dec 2022 - 15:13:30.058 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 3 JPA repository interfaces.
+30 Dec 2022 - 15:13:30.116 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+30 Dec 2022 - 15:13:30.117 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 Dec 2022 - 15:13:30.117 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+30 Dec 2022 - 15:13:30.134 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 Dec 2022 - 15:13:30.135 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 270 ms
+30 Dec 2022 - 15:13:30.163 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 Dec 2022 - 15:13:30.166 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+30 Dec 2022 - 15:13:30.169 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+30 Dec 2022 - 15:13:30.170 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30 Dec 2022 - 15:13:30.222 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 Dec 2022 - 15:13:30.222 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 Dec 2022 - 15:13:30.329 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 Dec 2022 - 15:13:30.350 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+30 Dec 2022 - 15:13:30.382 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+30 Dec 2022 - 15:13:30.419 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+30 Dec 2022 - 15:13:30.419 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+30 Dec 2022 - 15:13:30.420 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+30 Dec 2022 - 15:13:30.422 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+30 Dec 2022 - 15:13:30.458 [restartedMain] INFO  c.student.StudentAddressApplication - Started StudentAddressApplication in 0.611 seconds (JVM running for 105.235)
+30 Dec 2022 - 15:13:30.460 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+30 Dec 2022 - 15:13:30.514 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+30 Dec 2022 - 15:13:30.520 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+30 Dec 2022 - 15:13:30.523 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 Dec 2022 - 15:13:30.523 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+30 Dec 2022 - 15:13:30.525 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+30 Dec 2022 - 15:14:03.600 [restartedMain] INFO  c.student.StudentAddressApplication - Starting StudentAddressApplication using Java 17.0.4.1 on Abhishek with PID 1164 (E:\Wallpaper\student-address\target\classes started by Abhishek in E:\Wallpaper\student-address)
+30 Dec 2022 - 15:14:03.601 [restartedMain] INFO  c.student.StudentAddressApplication - No active profile set, falling back to 1 default profile: "default"
+30 Dec 2022 - 15:14:03.640 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+30 Dec 2022 - 15:14:03.640 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+30 Dec 2022 - 15:14:04.234 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 Dec 2022 - 15:14:04.277 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 3 JPA repository interfaces.
+30 Dec 2022 - 15:14:04.738 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+30 Dec 2022 - 15:14:04.746 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 Dec 2022 - 15:14:04.746 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+30 Dec 2022 - 15:14:04.811 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 Dec 2022 - 15:14:04.811 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1170 ms
+30 Dec 2022 - 15:14:04.928 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 Dec 2022 - 15:14:04.969 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+30 Dec 2022 - 15:14:05.090 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 Dec 2022 - 15:14:05.166 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 Dec 2022 - 15:14:05.288 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 Dec 2022 - 15:14:05.300 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30 Dec 2022 - 15:14:05.822 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 Dec 2022 - 15:14:05.829 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 Dec 2022 - 15:14:06.327 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 Dec 2022 - 15:14:06.423 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+30 Dec 2022 - 15:14:06.529 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+30 Dec 2022 - 15:14:06.657 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+30 Dec 2022 - 15:14:06.658 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+30 Dec 2022 - 15:14:06.672 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+30 Dec 2022 - 15:14:06.693 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+30 Dec 2022 - 15:14:06.815 [restartedMain] INFO  c.student.StudentAddressApplication - Started StudentAddressApplication in 3.51 seconds (JVM running for 4.119)
+30 Dec 2022 - 15:14:19.439 [http-nio-8086-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30 Dec 2022 - 15:14:19.439 [http-nio-8086-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+30 Dec 2022 - 15:14:19.440 [http-nio-8086-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+30 Dec 2022 - 15:16:32.270 [http-nio-8086-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.student.model.StudentDTO` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('email'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.student.model.StudentDTO` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('email')<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]]
+30 Dec 2022 - 15:17:43.630 [http-nio-8086-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Invalid numeric value: Leading zeroes not allowed; nested exception is com.fasterxml.jackson.core.JsonParseException: Invalid numeric value: Leading zeroes not allowed<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 15]]
+30 Dec 2022 - 15:18:03.152 [http-nio-8086-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Invalid numeric value: Leading zeroes not allowed; nested exception is com.fasterxml.jackson.core.JsonParseException: Invalid numeric value: Leading zeroes not allowed<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 15]]
+30 Dec 2022 - 15:18:04.384 [http-nio-8086-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Invalid numeric value: Leading zeroes not allowed; nested exception is com.fasterxml.jackson.core.JsonParseException: Invalid numeric value: Leading zeroes not allowed<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 15]]
+30 Dec 2022 - 15:18:17.493 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+30 Dec 2022 - 15:18:17.503 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+30 Dec 2022 - 15:18:17.504 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+30 Dec 2022 - 15:18:17.510 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 Dec 2022 - 15:18:17.513 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 Dec 2022 - 15:18:17.521 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
